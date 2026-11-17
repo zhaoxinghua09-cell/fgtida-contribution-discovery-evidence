@@ -23,6 +23,11 @@ of the evidence. The effect is that 'stale but acceptable' and 'stale and unacce
 become distinguishable after the fact, which is what an auditor needs and what a single
 interval destroys.
 
+The classes a relying party uses are its own: they belong in its policy, stated in
+advance of the decisions they govern, not assigned to a decision after it is taken.
+A decision whose class was not declared in advance does not meet this requirement,
+however fresh the evidence was.
+
 The pair matters in both directions. A single interval set short enough for an
 irreversible act makes read-only lookups unusably expensive and pushes implementers
 towards caching; the same interval set long enough to make lookups work silently admits

@@ -23,6 +23,10 @@ fact about the querying party's reach, not a fact about the subject. An aggregat
 counts a failed query as a pass reports coverage that does not exist, and reports it
 in the same units as coverage that does.
 
+The labels in this chapter name outcomes, not field values: ``no_record_found``,
+``query_failed`` and ``not_revoked`` describe what happened when the question was
+asked, and the rule against merging them binds any representation that carries them.
+
 Empty coverage is not global completeness
 -----------------------------------------
 
@@ -35,7 +39,7 @@ the reach of the asker, which a reader must be able to see and weigh.
 What is reused from the decision table, and what is not
 -------------------------------------------------------
 
-The distinction this chapter rests on is already accepted in the group's decision
+The distinction this chapter rests on is recorded in the group's decision
 table, where content-binding and occurrence-binding are kept as two separate,
 separately testable properties and a per-field test is recorded as necessary but not
 sufficient. What is reused here is the classification of failure, not any particular

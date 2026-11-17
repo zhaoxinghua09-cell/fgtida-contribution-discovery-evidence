@@ -23,14 +23,14 @@ Discovery evidence: a minimum set, an absence discipline, and a two-clock freshn
     \begin{center}\textbf{Contribution to FG-TIDA, first meeting (Paris, 30 November – 1 December 2026)}\end{center}
 
 :Source: Xinghua Zhao, independent researcher (ORCID 0009-0001-0512-1237)
-:Contact: zhaoxinghua07@126.com
+:Contact: zhaoxinghua06@126.com
 :Related: FG-TIDA themes#60 (decision table), themes#62 (draft charter, deliverable 3)
-:Delivers to: ADXT working group, deliverables 2 and 3 (issuer acceptance, revocation and freshness across jurisdictions)
+:Relates to: themes#62 draft charter, proposed deliverables 2 and 3 (issuer acceptance, revocation and freshness across jurisdictions)
 :Nature: Requirements text offered for adoption, amendment or rejection. Not a schema, encoding or protocol proposal. It seeks no role, seat or editorship.
 :Disclosure: Prepared with AI assistance; the positions are the author's and the author takes responsibility for them.
 :Copyright: (c) 2026 Xinghua Zhao. Contributed to ITU-T FG-TIDA for use in its deliverables; reuse with attribution.
 :Patent: This contribution does not knowingly contain material subject to patent rights.
-:Version: 2026-11-17. The exact version is the repository commit named in the submission record.
+:Version: 2026-11-18. The exact version is the repository commit named in the submission record.
 :Repository: https://github.com/zhaoxinghua09-cell/fgtida-contribution-discovery-evidence
 
 Abstract
@@ -50,8 +50,8 @@ authority, and whether that statement still holds at the moment of use:
 
 For the purpose of this text, the evidence class is the kind of evidence the record carries, and the decision class is the category of act a relying party is about to take - admit, grant scoped access, or revoke.
 
-The distinction the three-state discipline rests on is already accepted in the
-decision table recorded in the group's theme discussion: content-binding and
+The distinction the three-state discipline rests on is recorded in the
+decision table in the group's theme discussion: content-binding and
 occurrence-binding are kept as two separate, separately testable properties, and a
 per-field test is necessary but not sufficient. What is reused here is the
 classification of failure, not any particular field set.
@@ -74,7 +74,7 @@ History
       - Working Group
     * - 00
       - Discovery evidence: a minimum set, an absence discipline, and a two-clock freshness rule
-      - 2026-11-17 (contribution, not an approved text)
+      - 2026-11-18 (contribution, not an approved text)
       - TIDA
       - No working group yet (declared target: ADXT advisory text, deliverables 2 and 3)
 
@@ -90,7 +90,7 @@ Authors
       - Contact
     * - Xinghua Zhao
       - Independent researcher (ORCID 0009-0001-0512-1237)
-      - zhaoxinghua07@126.com
+      - zhaoxinghua06@126.com
 
 Keywords
 --------

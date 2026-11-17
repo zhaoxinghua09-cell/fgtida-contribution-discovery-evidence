@@ -35,7 +35,9 @@ extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib
 import os as _os
 plantuml = _os.environ.get("PLANTUML", "plantuml")
 plantuml_output_format = 'svg'
-templates_path = ['_templates']
+# The theme's page template and sidebar script live in src/theme, outside the source folder: the TIDA
+# DataTracker accepts documentation and assets only there and rejects .html and .js files.
+templates_path = ['../theme/_templates']
 html_js_files = [
     "osia-sidebar.js",
 ]
@@ -98,7 +100,7 @@ rst_prolog = '''
 #
 # HTML Output Configuration
 #
-html_static_path = ['_static', 'images']
+html_static_path = ['_static', 'images', '../theme/_static']
 html_css_files = [
     #'custom.css',
     'osia-furo.css',
@@ -112,7 +114,7 @@ html_show_sourcelink = False
 copyright = '2026, Xinghua Zhao'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
 html_last_updated_fmt = '%b %d, %Y'
-html_extra_path = ['yaml']
+html_extra_path = []
 
 #
 # Latex/PDF Output Configuration

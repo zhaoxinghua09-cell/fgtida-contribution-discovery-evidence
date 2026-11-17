@@ -50,6 +50,10 @@ the part that makes the previous two auditable after the fact, and the part that
 most often absent. An absence of a receipt is not evidence of absence of an answer:
 it is evidence that nobody can say afterwards what was asked.
 
+The receipt is the relying party's own record of its own retrieval. Keeping it is
+the relying party's act; nothing in this requirement asks a registry or resolver
+operator to issue, countersign or retain it.
+
 None of the five is a field name
 --------------------------------
 
