@@ -16,8 +16,9 @@ supervisory expectations differ.
 Staleness as a property of the pair
 -----------------------------------
 
-The requirement is that a relying party state an admissible staleness budget paired
-with the class of decision it is about to take, and record it alongside the actual age
+The requirement is that a relying party state an admissible staleness budget (the
+largest age of evidence it will accept for that class of decision) paired with the
+class of decision it is about to take, and record it alongside the actual age
 of the evidence. The effect is that 'stale but acceptable' and 'stale and unacceptable'
 become distinguishable after the fact, which is what an auditor needs and what a single
 interval destroys.
